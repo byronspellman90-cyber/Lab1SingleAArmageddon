@@ -1,11 +1,6 @@
-def greet_names():
-    names = ["Rubeen", "Muri", "William", "Negus", "Byron"]
-    greetings = []
+number = 10
 
-    for name in names:
-        greetings.append(f"Hello, {name}")
-
-    return greetings
-
-for greeting in greet_names():
-    print(greeting)
+if number % 2 == 0:
+    print(f"{number} is even.")
+else:
+    print(f"{number} is odd.")
